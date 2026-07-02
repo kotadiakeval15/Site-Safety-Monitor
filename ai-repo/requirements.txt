@@ -1,0 +1,7 @@
+# Computer-vision stack for the AI pipeline.
+# Installed into the backend image so multiprocessing workers can import ai_repo.
+numpy==2.1.3
+opencv-python-headless==4.10.0.84
+ultralytics==8.3.49
+supervision==0.25.1
+pillow==11.0.0

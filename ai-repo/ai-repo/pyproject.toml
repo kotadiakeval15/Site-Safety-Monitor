@@ -1,0 +1,12 @@
+[project]
+name = "ai-repo"
+version = "2.0.0"
+description = "Construction Site Safety AI pipeline (YOLOv8 + ByteTrack + zone logic)"
+requires-python = ">=3.13"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["ai_repo", "ai_repo.detection", "ai_repo.tracking", "ai_repo.zones", "ai_repo.pipelines"]
